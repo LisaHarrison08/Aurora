@@ -5,21 +5,24 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Petemoss&family=Sassy+Frass&family=Yuji+Boku&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
 
 /* Body */
 body {
   background-color:rgb(235, 235, 235);
   /* font-family: 'Yuji Boku', serif; */
   /* font-family: 'Sassy Frass', cursive; */
-  font-family: 'Satisfy', cursive;
+  /* font-family: 'Satisfy', cursive; */
+  font-family: 'Comforter', cursive;
 }
 
 /* Navigation */
 
 /* .navbar {
   /* background-color: #776979; */
-} */
+/* }  */
 
 h1, h2, h3, h4, h5 {
   font-size: 3em;
