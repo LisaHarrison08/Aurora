@@ -42,7 +42,8 @@ h2 {
 
 .card-title {
   color: #92161c;
-  font-size: 2em; }
+  font-size: 2em;
+  background-color: rgba(235, 225, 225, 0.5); }
 
 /* About Page */
 /* Contact Page */
