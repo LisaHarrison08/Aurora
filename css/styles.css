@@ -27,7 +27,8 @@ h5 {
   color: #413243; }
 
 header {
-  background-color: #e1e8f1; }
+  background-color: #e1e8f1;
+  font-size: 1.25em; }
 
 .container {
   position: relative; }
