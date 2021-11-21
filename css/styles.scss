@@ -6,13 +6,14 @@ $color-mid: #ae8fb6;
 $color-dark: #37223a;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 $color-background:rgb(235, 235, 235);
+$color-header:#e1e8f1;
 
 $body-font: 'Comforter', cursive;
 $header-font: 'Satisfy', cursive; 
 
 /* Body */
 body {
-	background-color: rgb(235, 235, 235);
+	background-color: $color-header;
 	/* font-family: 'Yuji Boku', serif; */
 	/* font-family: 'Sassy Frass', cursive; */
 	/* font-family: 'Satisfy', cursive; */
@@ -25,9 +26,10 @@ body {
 .navbar-brand {
 	font-size: 1.5em;
 }
-/* .navbar {
-  /* background-color: #776979; */
-/* }  */
+.navbar {
+  margin-top: 0;
+  padding-top: 0;
+}  
 
 h1,
 h2,
@@ -41,9 +43,9 @@ h5 {
 	color: $color-primary;
 }
 
-/* header h2 {
-	color: $color-secondary;
-} */
+header  {
+	background-color: $color-header;
+} 
 
 .container {
 	position: relative;

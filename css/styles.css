@@ -1,6 +1,6 @@
 /* Body */
 body {
-  background-color: #ebebeb;
+  background-color: #e1e8f1;
   /* font-family: 'Yuji Boku', serif; */
   /* font-family: 'Sassy Frass', cursive; */
   /* font-family: 'Satisfy', cursive; */
@@ -11,9 +11,10 @@ body {
 .navbar-brand {
   font-size: 1.5em; }
 
-/* .navbar {
-  /* background-color: #776979; */
-/* }  */
+.navbar {
+  margin-top: 0;
+  padding-top: 0; }
+
 h1,
 h2,
 h3,
@@ -22,12 +23,12 @@ h5 {
   font-size: 3em;
   /* font-family: 'Yuji Boku', serif; */
   /* font-family: 'Sassy Frass', cursive; */
-  font-family: "Satisfy", cursive;
+  font-family: "Comforter", cursive;
   color: #413243; }
 
-/* header h2 {
-	color: $color-secondary;
-} */
+header {
+  background-color: #e1e8f1; }
+
 .container {
   position: relative; }
 
