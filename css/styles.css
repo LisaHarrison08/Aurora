@@ -47,6 +47,9 @@ header {
 .overlay, h1, h2 {
   margin-left: 100px; }
 
+.card-title {
+  color: #92161c; }
+
 /* About Page */
 /* Contact Page */
 /* Sites Page */

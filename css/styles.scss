@@ -8,6 +8,8 @@ $color-black-transparent: rgba(0, 0, 0, 0.5);
 $color-background:rgb(235, 235, 235);
 $color-header:#e1e8f1;
 
+$card-title:#92161c;
+
 $body-font: 'Comforter', cursive;
 $header-font: 'Satisfy', cursive; 
 
@@ -68,6 +70,9 @@ header  {
   margin-left: 100px;
 }
 
+.card-title{
+	color:$card-title;
+}
 
 
 /* About Page */
