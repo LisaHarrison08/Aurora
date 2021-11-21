@@ -1,79 +1,53 @@
-/* The @import rule allows you to import a style sheet into another style sheet */
-/* Fonts - GoogleFont */
-
-/* @import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap'); */
-
-/* @import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Petemoss&family=Sassy+Frass&family=Yuji+Boku&display=swap'); */
-
-/* @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap'); */
-
-@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
-
 /* Body */
 body {
-	background-color: rgb(235, 235, 235);
-	/* font-family: 'Yuji Boku', serif; */
-	/* font-family: 'Sassy Frass', cursive; */
-	/* font-family: 'Satisfy', cursive; */
-	font-family: 'Comforter', cursive;
-}
+  background-color: #ebebeb;
+  /* font-family: 'Yuji Boku', serif; */
+  /* font-family: 'Sassy Frass', cursive; */
+  /* font-family: 'Satisfy', cursive; */
+  font-family: "Comforter", cursive; }
 
 /* Navigation */
-
 .nav-link,
 .navbar-brand {
-	font-size: 1.5em;
-}
+  font-size: 1.5em; }
+
 /* .navbar {
   /* background-color: #776979; */
 /* }  */
-
 h1,
 h2,
 h3,
 h4,
 h5 {
-	font-size: 3em;
-	/* font-family: 'Yuji Boku', serif; */
-	/* font-family: 'Sassy Frass', cursive; */
-	font-family: 'Satisfy', cursive;
-	color: #413243;
-}
+  font-size: 3em;
+  /* font-family: 'Yuji Boku', serif; */
+  /* font-family: 'Sassy Frass', cursive; */
+  font-family: "Satisfy", cursive;
+  color: #413243; }
 
 /* header h2 {
-	color: #715a74;
+	color: $color-secondary;
 } */
-
 .container {
-	position: relative;
-}
+  position: relative; }
+
 .container video {
-	position: relative;
-	z-index: 0;
-}
+  position: relative;
+  z-index: 0; }
+
 /* use the CSS position property in combination with the z-index property to overlay an individual div over another div element. */
-
 .overlay {
-	position: absolute;
-	top: 0;
-	margin: 0;
-	z-index: 1;
-}
+  position: absolute;
+  top: 0;
+  margin: 0;
+  z-index: 1; }
 
-.overlay, h1,h2{
-  margin-left: 100px;
-}
-
-
+.overlay, h1, h2 {
+  margin-left: 100px; }
 
 /* About Page */
-
 /* Contact Page */
-
 /* Sites Page */
-
 /* Section: Footer */
-
 /* Images */
-
 /* Media Queries */
