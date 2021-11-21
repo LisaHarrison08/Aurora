@@ -38,10 +38,11 @@ header {
 .overlay,
 h1,
 h2 {
-  margin-left: 100px; }
+  margin-left: 120px; }
 
 .card-title {
-  color: #92161c; }
+  color: #92161c;
+  font-size: 2em; }
 
 /* About Page */
 /* Contact Page */
