@@ -1,10 +1,7 @@
 /* Body */
 body {
   background-color: #e1e8f1;
-  /* font-family: 'Yuji Boku', serif; */
-  /* font-family: 'Sassy Frass', cursive; */
-  /* font-family: 'Satisfy', cursive; */
-  font-family: "Comforter", cursive; }
+  font-family: "Satisfy", cursive; }
 
 /* Navigation */
 .nav-link,
@@ -15,20 +12,14 @@ body {
   margin-top: 0;
   padding-top: 0; }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-size: 3em;
-  /* font-family: 'Yuji Boku', serif; */
-  /* font-family: 'Sassy Frass', cursive; */
-  font-family: "Comforter", cursive;
-  color: #413243; }
-
 header {
   background-color: #e1e8f1;
-  font-size: 1.25em; }
+  font-family: "Comforter", cursive;
+  color: #413243; }
+  header h1 {
+    font-size: 5em; }
+  header h2 {
+    font-size: 3em; }
 
 .container {
   position: relative; }
@@ -44,7 +35,9 @@ header {
   margin: 0;
   z-index: 1; }
 
-.overlay, h1, h2 {
+.overlay,
+h1,
+h2 {
   margin-left: 100px; }
 
 .card-title {
@@ -52,6 +45,9 @@ header {
 
 /* About Page */
 /* Contact Page */
+address {
+  font-family: "Satisfy", cursive; }
+
 /* Sites Page */
 /* Section: Footer */
 /* Images */

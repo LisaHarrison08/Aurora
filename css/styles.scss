@@ -1,24 +1,21 @@
-$color-primary:#413243;;
+$color-primary: #413243;
 $color-secondary: #715a74;
 
 $color-pale: #bcbbc7;
 $color-mid: #ae8fb6;
 $color-dark: #37223a;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
-$color-background:rgb(235, 235, 235);
-$color-header:#e1e8f1;
+$color-background: rgb(235, 235, 235);
+$color-header: #e1e8f1;
 
-$card-title:#92161c;
+$card-title: #92161c;
 
-$body-font: 'Comforter', cursive;
-$header-font: 'Satisfy', cursive; 
+$body-font: 'Satisfy', cursive;
+$header-font: 'Comforter', cursive;
 
 /* Body */
 body {
 	background-color: $color-header;
-	/* font-family: 'Yuji Boku', serif; */
-	/* font-family: 'Sassy Frass', cursive; */
-	/* font-family: 'Satisfy', cursive; */
 	font-family: $body-font;
 }
 
@@ -29,25 +26,20 @@ body {
 	font-size: 1.5em;
 }
 .navbar {
-  margin-top: 0;
-  padding-top: 0;
-}  
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-	font-size: 3em;
-	/* font-family: 'Yuji Boku', serif; */
-	/* font-family: 'Sassy Frass', cursive; */
-	font-family: $body-font;
-	color: $color-primary;
+	margin-top: 0;
+	padding-top: 0;
 }
 
-header  {
+header {
 	background-color: $color-header;
-	font-size:1.25em;
+	font-family: $header-font;
+	color: $color-primary;
+	h1 {
+		font-size: 5em;
+	}
+	h2{
+		font-size: 3em;
+	}
 }
 
 .container {
@@ -66,18 +58,23 @@ header  {
 	z-index: 1;
 }
 
-.overlay, h1,h2{
-  margin-left: 100px;
+.overlay,
+h1,
+h2 {
+	margin-left: 100px;
 }
 
-.card-title{
-	color:$card-title;
+.card-title {
+	color: $card-title;
 }
-
 
 /* About Page */
 
 /* Contact Page */
+
+address {
+	font-family: $body-font;
+}
 
 /* Sites Page */
 
