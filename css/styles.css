@@ -12,6 +12,10 @@ body {
   margin-top: 0;
   padding-top: 0; }
 
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end; }
+
 header {
   background-color: #e1e8f1;
   font-family: "Comforter", cursive;
