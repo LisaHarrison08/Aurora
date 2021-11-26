@@ -36,9 +36,8 @@ body {
 }
 
 header {
-	background-color: $color-header;
+	background-color: $color-background;
 	font-family: $header-font;
-	color: $color-primary;
 	h1 {
 		font-size: 5em;
 	}
@@ -80,7 +79,8 @@ header {
 .overlay,
 h1,
 h2 {
-	margin-left: 120px;
+	margin-left: 20px;
+	color:$color-header;
 }
 
 .card-title {
