@@ -1,6 +1,6 @@
 /* Body */
 body {
-  background-color: #e1e8f1;
+  background-color: #d9d0c2;
   font-family: "Satisfy", cursive; }
 
 /* Navigation */
@@ -10,7 +10,8 @@ body {
 
 .navbar {
   margin-top: 0;
-  padding-top: 0; }
+  padding-top: 0;
+  background-color: #f6f6f6; }
 
 .navbar-collapse {
   display: flex;
@@ -32,8 +33,8 @@ header {
 
 #wine {
   display: block;
-  width: 30%;
-  height: 270px;
+  width: 70%;
+  height: 400px;
   object-fit: cover; }
 
 .container {
@@ -66,7 +67,10 @@ h2 {
 address {
   font-family: "Satisfy", cursive; }
 
-/* Sites Page */
 /* Section: Footer */
+.site-footer {
+  padding-top: 20px;
+  background-color: #f6f6f6; }
+
 /* Images */
 /* Media Queries */
