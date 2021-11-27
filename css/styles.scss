@@ -3,11 +3,13 @@ $color-secondary: #715a74;
 $color-pale: #bcbbc7;
 $color-mid: #ae8fb6;
 $color-dark: #37223a;
+$color-body:#ececec;
 
 $color-grey-transparent: rgba(235, 225, 225, 0.5);
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 $color-background: rgb(235, 235, 235);
 $color-header: #e1e8f1;
+$color-footer:#cacaca;
 
 $card-title: #92161c;
 
@@ -17,7 +19,8 @@ $header-font: 'Comforter', cursive;
 /* Body */
 body {
 	// background-color: #d0c4b4;
-	background-color: #d9d0c2;
+	// background-color: #d9d0c2;
+	background-color:$color-body;
 	font-family: $body-font;
 }
 
@@ -30,7 +33,6 @@ body {
 .navbar {
 	margin-top: 0;
 	padding-top: 0;
-	background-color:#f6f6f6
 }
 .navbar-collapse {
 	display: flex;
@@ -104,7 +106,7 @@ address {
 
 .site-footer {
 	padding-top: 20px;
-	background-color:#f6f6f6;
+	background-color: $color-footer;
 }
 
 /* Images */

@@ -1,6 +1,6 @@
 /* Body */
 body {
-  background-color: #d9d0c2;
+  background-color: #ececec;
   font-family: "Satisfy", cursive; }
 
 /* Navigation */
@@ -10,8 +10,7 @@ body {
 
 .navbar {
   margin-top: 0;
-  padding-top: 0;
-  background-color: #f6f6f6; }
+  padding-top: 0; }
 
 .navbar-collapse {
   display: flex;
@@ -70,7 +69,7 @@ address {
 /* Section: Footer */
 .site-footer {
   padding-top: 20px;
-  background-color: #f6f6f6; }
+  background-color: #cacaca; }
 
 /* Images */
 /* Media Queries */
