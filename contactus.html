@@ -23,133 +23,119 @@
   <header class="jumbotron">
     <div class="container-fluid">
       <div class="row">
-        <div class="col">
-          <video width="340" height="240" autoplay loop muted>
-            <source src="img/wine.mp4" type="video/mp4">
-            <source src="img/wine.webm" type="video/webm">
-          </video>
-        </div>
-
+        <img src="img/winery.jpg" height="500px" alt="winery" />
         <div class="col overlay mt-5 p-4">
-          <!-- <i class="fal fa-wine-glass-alt"></i> -->
           <h1>Aurora</h1>
           <h2>Distinctly different</h2>
-        </div>
-
-        <div class="col-md-4 col-xl-2 mt-4">
-
           <!-- create reservation form modal button -->
           <button role="button" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#reserveModal"
             data-html="true">Reservations</button>
         </div>
+
       </div>
     </div>
   </header>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Aurora</a>
+      <a class="navbar-brand active" href="index.html">Aurora</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          <a class="nav-link" href="about.html">About</a>
+          <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+          <a class="nav-link" href="club.html">Wine Club</a>
           <a class="nav-link" href="events.html">Events</a>
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="tours.html">Tours & Tastings</a>
         </div>
       </div>
     </div>
   </nav>
 
+
   <div class="container">
 
     <div class="row row-content align-items-center mt-4">
-        <div class="col-sm-4">
-            <h5>Our Address</h5>
-            <address>
-                1 New Way<br />
-                Seattle, WA 98001<br />
-                U.S.A.
-            </address>
-        </div>
-        <div class="col">
-            <i class="fal fa-phone"></i> 1-206-555-1234<br>
-            <i class="fal fa-envelope"></i> aurorawinery@vineyards.co
-        </div>
+      <div class="col-sm-4">
+        <h5>Our Address</h5>
+        <address>
+          1 New Way<br />
+          Seattle, WA 98001<br />
+          U.S.A.
+        </address>
+      </div>
+      <div class="col">
+        <i class="fal fa-phone"></i> 1-206-555-1234<br>
+        <i class="fal fa-envelope"></i> aurorawinery@vineyards.co
+      </div>
     </div>
 
     <div class="row row-content">
-        <div class="col-12">
-            <h2>Send us your Feedback</h2>
-            <hr />
-        </div>
-        <div class="col-md-10">
-            <form>
-                <div class="form-group row">
-                    <label for="firstName" class="col-md-2 col-form-label">First Name</label>
-                    <div class="col-md-10">
-                        <input type="text" class="form-control" id="firstName" name="firstName"
-                            placeholder="First Name" />
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
-                    <div class="col-md-10">
-                        <input type="text" class="form-control" id="lastName" name="lastName"
-                            placeholder="Last Name" />
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
-                    <div class="col-5 col-md-3">
-                        <input type="tel" class="form-control" id="areaCode" name="areaCode"
-                            placeholder="Area code" />
-                    </div>
-                    <div class="col-7">
-                        <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="email" class="col-md-2 col-form-label">Email</label>
-                    <div class="col-md-10">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <div class="col offset-md-2">
-                        May we contact you?
-                        <div class="form-check form-check-inline">
-                            <input type="radio" class="form-check-input" id="contactYes" name="contactRadios"
-                                value="yes" />
-                            <label for="contactYes" class="form-check-label">Yes</label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input type="radio" class="form-check-input" id="contactNo" name="contactRadios"
-                                value="no" />
-                            <label for="contactNo" class="form-check-label">No</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
-                    <div class="col-md-10">
-                        <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <div class="offset-md-2 col-md-10">
-                        <button type="submit" class="btn btn-secondary">Send Feedback</button>
-                    </div>
-                </div>
-            </form>
-        </div>
+      <div class="col-12">
+        <h2>Send us your Feedback</h2>
+        <hr />
+      </div>
+      <div class="col-md-10">
+        <form>
+          <div class="form-group row">
+            <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+            <div class="col-md-10">
+              <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+            <div class="col-md-10">
+              <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+            <div class="col-5 col-md-3">
+              <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+            </div>
+            <div class="col-7">
+              <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="email" class="col-md-2 col-form-label">Email</label>
+            <div class="col-md-10">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col offset-md-2">
+              May we contact you?
+              <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
+                <label for="contactYes" class="form-check-label">Yes</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
+                <label for="contactNo" class="form-check-label">No</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+            <div class="col-md-10">
+              <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="offset-md-2 col-md-10">
+              <button type="submit" class="btn btn-secondary">Send Feedback</button>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
 
-</div>
+  </div>
 
   <!-- build:js js/main.js -->
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
