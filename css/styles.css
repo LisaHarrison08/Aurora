@@ -3,6 +3,12 @@ body {
   background-color: #ececec;
   font-family: "Satisfy", cursive; }
 
+#reserveModal .modal-header {
+  background-color: #bcbbc7; }
+
+#reserveModal .col-form-label {
+  font-size: 1.25em; }
+
 /* Navigation */
 .nav-link,
 .navbar-brand {

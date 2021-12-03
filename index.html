@@ -32,12 +32,86 @@
         <div class="col overlay mt-5 p-4">
           <h1>Aurora</h1>
           <h2>Distinctly different</h2>
-          <button id="reserve" role="button" class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#reserveModal" data-html="true">Reservations</button>
+          <button id="reserveButton" role="button" class="btn btn-lg btn-secondary" data-toggle="modal"
+            data-target="#reserveModal" data-html="true">Reservations</button>
         </div>
 
       </div>
     </div>
   </header>
+
+  <!-- ------ Modal Component: Reservations ------ -->
+
+  <div id="reserveModal" class="modal fade" role="dialog">
+    <div class="modal-lg modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">Reserve a Table</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+
+            <form>
+              <div class="form-group row">
+                <label class="col-sm-6 col-form-label" for="numPeople">Number of People</label>
+
+                <div class="col">
+                  <select class="form-control" name="numPeople" id="numPeople">
+                    <option disabled>Select. . .</option>
+                    <option selected>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                  </select>
+                </div>
+              </div>
+
+
+              <div class="row form-group mt-2">
+                <label class="col-sm-6 col-form-label" for="date">Date</label>
+                <div class="col">
+                  <input class="form-control" type="date" id="date" name="date" placeholder="">
+                </div>
+              </div>
+
+              <!-- ---- Section: Radio Button Group ---- -->
+              <div class="row form-group mt-2">
+                <label class="col-sm-6 col-form-label">Table Type</label>
+                <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-secondary active">
+                    <input type="radio" name="tableType" value="inside" id="tableIn" autocomplete="off">Inside
+                  </label>
+                  <label class="btn btn-info">
+                    <input type="radio" name="tableType" id="tableOut" value="outside" autocomplete="off" checked>Outside
+                  </label>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col">
+                  <button type="button" data-bs-dismiss="modal" class="btn btn-secondary">Cancel</button>
+                  <button type="button" class="btn btn-info">Search</button>
+                  <p>*For bookings larger than 12 people please contact us directly on tel:+12065551234</p>
+                </div>
+              </div>
+
+            </form>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -148,8 +222,10 @@
         <!-- text-center class does not specify a breakpoint size; this means that it is not a responsive class and will apply to all viewport sizes. -->
         <div class="col-6 col-sm-5 text-center">
           <h5>Social</h5>
-          <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fab fa-instagram fa-lg"></i></a>
-          <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg"></i></a>
+          <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+              class="fab fa-instagram fa-lg"></i></a>
+          <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+              class="fab fa-facebook-f fa-lg"></i></a>
           <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fab fa-twitter fa-lg"></i></a>
           <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fab fa-youtube fa-lg"></i></a>
         </div>
@@ -164,7 +240,7 @@
     </div>
   </footer>
 
-  
+
 
 
   <!-- build:js js/main.js -->

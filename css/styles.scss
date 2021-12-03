@@ -24,6 +24,17 @@ body {
 	font-family: $body-font;
 }
 
+// Reserve Modal
+
+#reserveModal {
+	.modal-header {
+		background-color:$color-pale;
+	}
+	.col-form-label{
+		font-size:1.25em;
+	}
+}
+
 /* Navigation */
 
 .nav-link,
