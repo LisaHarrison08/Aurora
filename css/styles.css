@@ -2,6 +2,8 @@
 body {
   background-color: #ececec;
   font-family: "Satisfy", cursive; }
+  body p {
+    font-size: 1.25em; }
 
 h1 {
   color: #92161c; }
