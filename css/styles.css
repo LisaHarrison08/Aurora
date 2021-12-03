@@ -3,6 +3,9 @@ body {
   background-color: #ececec;
   font-family: "Satisfy", cursive; }
 
+h1 {
+  color: #92161c; }
+
 #reserveModal .modal-header {
   background-color: #bcbbc7; }
 
@@ -26,9 +29,13 @@ header {
   background-color: #ebebeb;
   font-family: "Comforter", cursive; }
   header h1 {
-    font-size: 5em; }
+    font-size: 5em;
+    color: #e1e8f1;
+    margin-left: 20px; }
   header h2 {
-    font-size: 3em; }
+    font-size: 3em;
+    color: #e1e8f1;
+    margin-left: 20px; }
 
 header video {
   display: block;
@@ -50,12 +57,6 @@ header video {
   margin: 0;
   z-index: 1; }
 
-.overlay,
-h1,
-h2 {
-  margin-left: 20px;
-  color: #e1e8f1; }
-
 #reserveButton {
   margin-left: 20px; }
 
@@ -64,7 +65,7 @@ h2 {
   font-size: 2em;
   background-color: rgba(235, 225, 225, 0.5); }
 
-/* About Page */
+/* Events Page */
 /* Contact Page */
 address {
   font-family: "Satisfy", cursive; }
