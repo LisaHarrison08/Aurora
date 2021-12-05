@@ -71,6 +71,10 @@ header video {
 .d-grid button {
   font-size: 2em; }
 
+#ticketModal .modal-header {
+  background-color: #bcbbc7;
+  color: #92161c; }
+
 /* Contact Page */
 address {
   font-family: "Satisfy", cursive; }
