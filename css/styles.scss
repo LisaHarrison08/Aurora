@@ -114,6 +114,13 @@ header video {
 	font-size: 2em;
 }
 
+#ticketModal {
+	.modal-header {
+		background-color: $color-teal;
+		color:$login-text;
+	}
+}
+
 /* Contact Page */
 
   
