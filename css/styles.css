@@ -68,6 +68,9 @@ header video {
   background-color: rgba(235, 225, 225, 0.5); }
 
 /* Events Page */
+.d-grid button {
+  font-size: 2em; }
+
 /* Contact Page */
 address {
   font-family: "Satisfy", cursive; }
