@@ -115,6 +115,61 @@
     </div>
   </div>
 
+  <!-- ------ Modal Component: Tickets ------ -->
+
+  <div id="ticketModal" class="modal fade" role="dialog">
+    <div class="modal-lg modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">Tickets</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+
+            <form>
+              <div class="form-group row">
+                <label class="col-sm-6 col-form-label" for="numPeople">Number of People</label>
+
+                <div class="col">
+                  <select class="form-control" name="numPeople" id="numPeople">
+                    <option disabled>Select. . .</option>
+                    <option selected>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row form-group mt-2">
+                <label class="col-sm-6 col-form-label" for="date">Date</label>
+                <div class="col">
+                  <input class="form-control" type="date" id="date" name="date" placeholder="">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col">
+                  <button type="submit" data-bs-dismiss="modal" class="btn btn-secondary">Cancel</button>
+                  <button type="button" class="btn btn-info">Purchase</button>
+                  <p>*For bookings larger than 8 people please contact us directly on tel:+12065551234</p>
+                </div>
+              </div>
+
+            </form>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container-fluid">
@@ -134,7 +189,8 @@
     </div>
   </nav>
 
-  <!-- Tours & Tasting Info Section  -->
+  <!-- Section: Info -->
+
   <div class="container">
     <h1 class="text-center mt-4">Join us at Aurora for a tour of our vineyard and taste the fruits of our harvest!</h1>
     <p class="text-center mt-4"><strong>PLEASE NOTE THAT: </strong>Tours are held every weekend evenings and occasional
@@ -145,6 +201,7 @@
       <strong>"Tickets"</strong> button
       to secure your place! Walk ins are always welcome but not guaranteed.
     </p>
+
     <div class="d-grid gap-2 col-6 mx-auto mb-4">
       <button id="ticketButton" role="button" class="btn btn-outline-secondary btn-lg" data-toggle="modal"
         data-target="#ticketModal" data-html="true">Tickets</button>
@@ -152,6 +209,7 @@
 
   </div>
 
+  <!-- Footer Section -->
   <footer class="site-footer">
     <div class="container">
       <div class="row" id="footer-content">
