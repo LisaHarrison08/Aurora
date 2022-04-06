@@ -48,12 +48,14 @@ header {
   background-color: #ebebeb;
   font-family: "Comforter", cursive; }
   header h1 {
-    font-size: 5em;
+    font-size: 6em;
+    font-weight: bold;
     color: #e1e8f1;
     margin-left: 20px;
     letter-spacing: 10px; }
   header h2 {
     font-size: 3em;
+    font-weight: bold;
     color: #e1e8f1;
     margin-left: 20px; 
     letter-spacing: 10px;}
@@ -138,6 +140,19 @@ address {
  ul, .btn-link{
   font-size: 20px;
   letter-spacing:2px;
+
+  }
+
+  ul, li{
+    font-size:1.1em;
+  }
+
+  .site-footer, h5{
+    font-size: 1.3em;
+  }
+
+  .fa--icons{
+    margin-top: 20px;
   }
 
   /* Tours & Tastings */
