@@ -29,12 +29,21 @@ h1 {
   justify-content: flex-end; }
 
   .nav-link:hover{
-    background-color:rgb(201, 249, 226);
+    background-color:rgb(171, 186, 179);
 }
 .navbar-brand:hover{
   background-color:rgb(237, 224, 230);
 }
 
+.navbar-brand{
+  margin-left: 40px;
+  font-size:2.6em;
+}
+
+.nav-link{
+  margin-right: 20px;
+  font-size:2em;
+}
 header {
   background-color: #ebebeb;
   font-family: "Comforter", cursive; }
@@ -42,12 +51,12 @@ header {
     font-size: 5em;
     color: #e1e8f1;
     margin-left: 20px;
-    letter-spacing: 2px; }
+    letter-spacing: 10px; }
   header h2 {
     font-size: 3em;
     color: #e1e8f1;
     margin-left: 20px; 
-    letter-spacing: 2px;}
+    letter-spacing: 10px;}
 
 header video {
   display: block;
@@ -71,18 +80,34 @@ header video {
 
 #reserveButton {
   margin-left: 20px;
-  font-size: 30px;
-  letter-spacing: 3px; }
+  font-size: 40px;
+  letter-spacing: 6px; }
 
 p.text-center{
    font-size: 25px;
    letter-spacing:2px;
 }
 
+.site--contents{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .card-title {
   color: #92161c;
   font-size: 2em;
-  background-color: rgba(235, 225, 225, 0.5); }
+  background-color: rgba(235, 225, 225, 0.5); 
+}
+
+.card{
+  margin: 20px;
+}
+
+.btn-secondary{
+  font-size: 1.em;
+}
 
 /* Events Page */
 .d-grid button {
@@ -94,7 +119,15 @@ p.text-center{
 
 /* Contact Page */
 address {
-  font-family: "Satisfy", cursive; }
+  font-family: "Satisfy", cursive; 
+  font-size: 1.2em;
+  letter-spacing: 4px;
+}
+
+.contact--items{
+  font-size: 1.4em;
+  letter-spacing: 4px;
+}
 
 /* Section: Footer */
 .site-footer {
@@ -106,5 +139,15 @@ address {
   font-size: 20px;
   letter-spacing:2px;
   }
+
+  /* Tours & Tastings */
+hr{
+  margin:50px;
+
+}
+
+.tour--items{
+  padding: 40px;
+}
 /* Images */
 /* Media Queries */
