@@ -1,9 +1,9 @@
 /* Body */
 body {
   background-color: #ececec;
-  font-family: "Satisfy", cursive; }
-  body p {
-    font-size: 1.25em; }
+  font-family: "Satisfy", cursive;
+}
+
 
 h1 {
   color: #92161c; }
@@ -97,10 +97,27 @@ p.text-center{
   justify-content: center;
 }
 
+.site--contents h1{
+  font-size: 2.8em;
+  text-align: center;
+}
+
+.site--contents p{
+  font-size: 2em;
+  text-align: center;
+  color:rgba(11, 11, 11, 0.5);
+}
+
 .card-title {
   color: #92161c;
   font-size: 2em;
   background-color: rgba(235, 225, 225, 0.5); 
+}
+
+p.card-text {
+  color:#ebebeb;
+  text-align: left;
+  font-size: 1.6em;
 }
 
 .card{
@@ -112,6 +129,12 @@ p.text-center{
 }
 
 /* Events Page */
+
+.card-events{
+  font-size: 1.4em;
+  letter-spacing: 2px;
+}
+
 .d-grid button {
   font-size: 2em; }
 
